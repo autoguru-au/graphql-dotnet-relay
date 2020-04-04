@@ -1,0 +1,33 @@
+name: publish to nuget
+on:
+  push:
+    branches:
+      - master
+env:
+  VERSION_FILE_PATH: src/Directory.Build.props
+jobs: 
+  publish:
+    name: list on nuget
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2      
+        
+      - name: publish GraphQL.RelaySupport.Core on version change
+        uses: rohith/publish-nuget@v2
+        with:
+          PROJECT_FILE_PATH: src/GraphQL.RelaySupport.Core/GraphQL.RelaySupport.Core.csproj
+       
+      - name: publish GraphQL.RelaySupport on version change
+        uses: rohith/publish-nuget@v2
+        with:
+          PROJECT_FILE_PATH: src/GraphQL.RelaySupport/GraphQL.RelaySupport.csproj
+          
+      - name: publish GraphQL.RelaySupport.AutoMapped on version change
+        uses: rohith/publish-nuget@v2
+        with:
+          PROJECT_FILE_PATH: src/GraphQL.RelaySupport.AutoMapped/GraphQL.RelaySupport.AutoMapped.csproj
+          
+      - name: publish GraphQL.RelaySupport.NewtonsoftJson on version change
+        uses: rohith/publish-nuget@v2
+        with:
+          PROJECT_FILE_PATH: src/GraphQL.RelaySupport.NewtonsoftJson/GraphQL.RelaySupport.NewtonsoftJson.csproj

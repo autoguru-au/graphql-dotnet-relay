@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29920.165
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".Solution Items", ".Solution Items", "{38AC5C9F-12B3-48DF-95B9-9BB7FC971F73}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\.gitignore = ..\..\.gitignore
+		Directory.Build.props = Directory.Build.props
+		..\..\README.md = ..\..\README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphQL.RelaySupport", "GraphQL.RelaySupport\GraphQL.RelaySupport.csproj", "{29FF1D88-9CFD-4E3B-85B5-7E721D5539C6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphQL.RelaySupport.AutoMapped", "GraphQL.RelaySupport.AutoMapped\GraphQL.RelaySupport.AutoMapped.csproj", "{866D5A59-9A92-4D85-B3D1-566A8A52D150}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphQL.RelaySupport.Core", "GraphQL.RelaySupport.Core\GraphQL.RelaySupport.Core.csproj", "{885705C5-878B-44EB-87B2-8C6C3302319E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphQL.RelaySupport.NewtonsoftJson", "GraphQL.RelaySupport.JsonConverted\GraphQL.RelaySupport.NewtonsoftJson.csproj", "{F29B83AA-B20F-4358-B53B-7B7D7D8ACC79}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29FF1D88-9CFD-4E3B-85B5-7E721D5539C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29FF1D88-9CFD-4E3B-85B5-7E721D5539C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29FF1D88-9CFD-4E3B-85B5-7E721D5539C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29FF1D88-9CFD-4E3B-85B5-7E721D5539C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{866D5A59-9A92-4D85-B3D1-566A8A52D150}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{866D5A59-9A92-4D85-B3D1-566A8A52D150}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{866D5A59-9A92-4D85-B3D1-566A8A52D150}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{866D5A59-9A92-4D85-B3D1-566A8A52D150}.Release|Any CPU.Build.0 = Release|Any CPU
+		{885705C5-878B-44EB-87B2-8C6C3302319E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{885705C5-878B-44EB-87B2-8C6C3302319E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{885705C5-878B-44EB-87B2-8C6C3302319E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{885705C5-878B-44EB-87B2-8C6C3302319E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F29B83AA-B20F-4358-B53B-7B7D7D8ACC79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F29B83AA-B20F-4358-B53B-7B7D7D8ACC79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F29B83AA-B20F-4358-B53B-7B7D7D8ACC79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F29B83AA-B20F-4358-B53B-7B7D7D8ACC79}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8B9DB9AE-D97C-42EB-93C7-826450F5A83A}
+	EndGlobalSection
+EndGlobal

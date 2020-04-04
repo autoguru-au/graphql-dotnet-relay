@@ -5,6 +5,7 @@ on:
       - master
 env:
   VERSION_FILE_PATH: src/Directory.Build.props
+  NUGET_KEY: ${{ secrets.NUGET_KEY }}
 jobs: 
   publish:
     name: list on nuget

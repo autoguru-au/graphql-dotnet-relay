@@ -1,0 +1,16 @@
+<Project>
+  <PropertyGroup Label="Сommon properties">
+    <LangVersion>latest</LangVersion>
+    <PackageProjectUrl>https://github.com/autoguru-au/graphql-dotnet-relay</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/autoguru-au/graphql-dotnet-relay</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <Copyright>AutoGuru</Copyright>
+    <Authors>Ben McCallum</Authors>
+    <Product>graphql-dotnet server</Product>
+    <Company>AutoGuru</Company>
+    <AssemblyName>GraphQL.RelaySupport.$(MSBuildProjectName)</AssemblyName>
+    <RootNamespace>GraphQL.RelaySupport.$(MSBuildProjectName)</RootNamespace>
+    <PackageId>GraphQL.RelaySupport.$(MSBuildProjectName)</PackageId>
+    <Version>1.0.0-alpha.0</Version>
+  </PropertyGroup>
+</Project>

@@ -11,6 +11,6 @@
     <AssemblyName>$(MSBuildProjectName)</AssemblyName>
     <RootNamespace>$(MSBuildProjectName)</RootNamespace>
     <PackageId>$(MSBuildProjectName)</PackageId>
-    <Version>1.0.0-alpha.1</Version>
+    <Version>1.0.0-rc1</Version>
   </PropertyGroup>
 </Project>

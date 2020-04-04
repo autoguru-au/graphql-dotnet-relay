@@ -8,9 +8,9 @@
     <Authors>Ben McCallum</Authors>
     <Product>graphql-dotnet server</Product>
     <Company>AutoGuru</Company>
-    <AssemblyName>GraphQL.RelaySupport.$(MSBuildProjectName)</AssemblyName>
-    <RootNamespace>GraphQL.RelaySupport.$(MSBuildProjectName)</RootNamespace>
-    <PackageId>GraphQL.RelaySupport.$(MSBuildProjectName)</PackageId>
+    <AssemblyName>$(MSBuildProjectName)</AssemblyName>
+    <RootNamespace>$(MSBuildProjectName)</RootNamespace>
+    <PackageId>$(MSBuildProjectName)</PackageId>
     <Version>1.0.0-alpha.0</Version>
   </PropertyGroup>
 </Project>

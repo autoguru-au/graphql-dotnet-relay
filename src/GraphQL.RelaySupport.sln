@@ -5,9 +5,9 @@ VisualStudioVersion = 16.0.29920.165
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".Solution Items", ".Solution Items", "{38AC5C9F-12B3-48DF-95B9-9BB7FC971F73}"
 	ProjectSection(SolutionItems) = preProject
-		..\..\.gitignore = ..\..\.gitignore
+		..\.gitignore = ..\.gitignore
 		Directory.Build.props = Directory.Build.props
-		..\..\README.md = ..\..\README.md
+		..\README.md = ..\README.md
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphQL.RelaySupport", "GraphQL.RelaySupport\GraphQL.RelaySupport.csproj", "{29FF1D88-9CFD-4E3B-85B5-7E721D5539C6}"
@@ -17,6 +17,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphQL.RelaySupport.Core", "GraphQL.RelaySupport.Core\GraphQL.RelaySupport.Core.csproj", "{885705C5-878B-44EB-87B2-8C6C3302319E}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphQL.RelaySupport.NewtonsoftJson", "GraphQL.RelaySupport.NewtonsoftJson\GraphQL.RelaySupport.NewtonsoftJson.csproj", "{F29B83AA-B20F-4358-B53B-7B7D7D8ACC79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphQL.RelaySupport.FluentValidation", "GraphQL.RelaySupport.FluentValidation\GraphQL.RelaySupport.FluentValidation.csproj", "{3944BEE0-4E0A-477E-83A2-385D6303915C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -40,6 +42,10 @@ Global
 		{F29B83AA-B20F-4358-B53B-7B7D7D8ACC79}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F29B83AA-B20F-4358-B53B-7B7D7D8ACC79}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F29B83AA-B20F-4358-B53B-7B7D7D8ACC79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3944BEE0-4E0A-477E-83A2-385D6303915C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3944BEE0-4E0A-477E-83A2-385D6303915C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3944BEE0-4E0A-477E-83A2-385D6303915C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3944BEE0-4E0A-477E-83A2-385D6303915C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,4 +1,6 @@
 # graphql-dotnet-relay
+> This documentation is a work in progress
+
 This library provides useful bits for graphql-dotnet based servers to add relay support. 
 
 ## Features
@@ -50,13 +52,23 @@ Similar to above but for NewtonsoftJson. Call `JsonSerializerFactory.Create()` t
 these ID-types into the equivalent BCL type to work with. Or use them like you would any other
 Newtonsoft.Json converter.
 
-### JSResource field
-...incoming
+### FluentValidation integration
+If you're using FluentValidation, you can validate a strongly-typed global ID class's value like so:
 
-## Setup
+`RuleFor(x => x.Id).ValidGlobalId()`
+
+### JSResource field
+WIP
+
+## Usage
 
 Install from NuGet:
-```asdf```
+
+`> dotnet add package GraphQL.RelaySupport`  
+`> dotnet add package GraphQL.RelaySupport.AutoMapped`  
+`> dotnet add package GraphQL.RelaySupport.FluentValidation`  
+`> dotnet add package GraphQL.RelaySupport.NewtonsoftJson`  
+`> dotnet add package GraphQL.RelaySupport.Core`  
 
 In your `Startup.cs`:
 1. Call `services.AddRelaySupport();`

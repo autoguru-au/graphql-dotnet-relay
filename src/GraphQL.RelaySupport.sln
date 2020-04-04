@@ -16,7 +16,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphQL.RelaySupport.AutoMa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphQL.RelaySupport.Core", "GraphQL.RelaySupport.Core\GraphQL.RelaySupport.Core.csproj", "{885705C5-878B-44EB-87B2-8C6C3302319E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphQL.RelaySupport.NewtonsoftJson", "GraphQL.RelaySupport.JsonConverted\GraphQL.RelaySupport.NewtonsoftJson.csproj", "{F29B83AA-B20F-4358-B53B-7B7D7D8ACC79}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphQL.RelaySupport.NewtonsoftJson", "GraphQL.RelaySupport.NewtonsoftJson\GraphQL.RelaySupport.NewtonsoftJson.csproj", "{F29B83AA-B20F-4358-B53B-7B7D7D8ACC79}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

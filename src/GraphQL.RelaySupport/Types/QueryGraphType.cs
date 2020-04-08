@@ -28,13 +28,13 @@ namespace GraphQL.Types
                 .ResolveAsync(ResolveNodesAsync);
         }
 
-        private Task<object> ResolveNodeAsync(ResolveFieldContext<object> context)
+        private Task<object> ResolveNodeAsync(IResolveFieldContext context)
         {
             var globalId = context.GetArgument<string>(ArgumentNames.Id);
             return GetNodeByGlobalIdAsync(context, globalId);
         }
 
-        private async Task<object> ResolveNodesAsync(ResolveFieldContext<object> context)
+        private async Task<object> ResolveNodesAsync(IResolveFieldContext context)
         {
             // TODO: Is there any way we could make this more optimal?
             // Maybe by batching IDs into common types and then having a GetByGlobalIdsAsync on each INodeGraphType implementor...
@@ -43,7 +43,7 @@ namespace GraphQL.Types
             return await Task.WhenAll(getNodeTasks);
         }
 
-        private static Task<object> GetNodeByGlobalIdAsync(ResolveFieldContext<object> context, string globalId)
+        private static Task<object> GetNodeByGlobalIdAsync(IResolveFieldContext context, string globalId)
         {
             var (typeName, id) = GlobalIdParser.FromGlobalId(globalId);
             var node = (INodeGraphType)context.Schema.FindType(typeName);

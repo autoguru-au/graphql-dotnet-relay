@@ -7,7 +7,7 @@ namespace GraphQL.Types
 {
     public interface INodeGraphType
     {
-        Task<object> GetByGlobalIdAsync(ResolveFieldContext<object> context, string id);
+        Task<object> GetByGlobalIdAsync(IResolveFieldContext context, string id);
     }
 
     public static class NodeFieldNames
@@ -71,9 +71,9 @@ namespace GraphQL.Types
             throw new NotImplementedException($"Support for a NodeGraphType with id of type {dbIdType} doesn't exist yet.");
         }
 
-        public async Task<object> GetByGlobalIdAsync(ResolveFieldContext<object> context, string id)
+        public async Task<object> GetByGlobalIdAsync(IResolveFieldContext context, string id)
             => await GetByIdAsync(context, (TId)Convert.ChangeType(id, typeof(TId), CultureInfo.InvariantCulture));
 
-        public abstract Task<TSourceType> GetByIdAsync(ResolveFieldContext<object> context, TId id);
+        public abstract Task<TSourceType> GetByIdAsync(IResolveFieldContext context, TId id);
     }
 }

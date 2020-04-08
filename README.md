@@ -1,5 +1,5 @@
 # graphql-dotnet-relay
-> This documentation is a work in progress
+> :warning: This documentation is a work in progress
 
 This library provides useful bits for graphql-dotnet based servers to add relay support. 
 
@@ -61,6 +61,9 @@ If you're using FluentValidation, you can validate a strongly-typed global ID cl
 WIP
 
 ## Usage
+
+> Note: Versions 1.x are for GraphQL 2.4.0. 
+> Versions 2.x are for GraphQL 3.0.0-preview-x
 
 Install from NuGet:
 

@@ -28,6 +28,11 @@ jobs:
         with:
           PROJECT_FILE_PATH: src/GraphQL.RelaySupport.AutoMapped/GraphQL.RelaySupport.AutoMapped.csproj
           
+      - name: publish GraphQL.RelaySupport.FluentValidation on version change
+        uses: rohith/publish-nuget@v2
+        with:
+          PROJECT_FILE_PATH: src/GraphQL.RelaySupport.FluentValidation/GraphQL.RelaySupport.FluentValidation.csproj
+
       - name: publish GraphQL.RelaySupport.NewtonsoftJson on version change
         uses: rohith/publish-nuget@v2
         with:

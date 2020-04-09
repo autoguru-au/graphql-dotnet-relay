@@ -1,6 +1,7 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Description>Types to add Relay support to graphql-dotnet</Description>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="GraphQL" Version="3.0.0-preview-1547" />

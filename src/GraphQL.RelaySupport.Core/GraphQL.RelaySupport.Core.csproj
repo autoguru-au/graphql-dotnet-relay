@@ -1,5 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Description>Core libraries for GraphQL.RelaySupport, like the GlobalIdParser</Description>
   </PropertyGroup>
 </Project>

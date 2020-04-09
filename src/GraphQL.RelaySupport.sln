@@ -7,6 +7,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".Solution Items", ".Solutio
 	ProjectSection(SolutionItems) = preProject
 		..\.gitignore = ..\.gitignore
 		Directory.Build.props = Directory.Build.props
+		NuGet.config = NuGet.config
 		..\README.md = ..\README.md
 	EndProjectSection
 EndProject
@@ -18,7 +19,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphQL.RelaySupport.Core",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphQL.RelaySupport.NewtonsoftJson", "GraphQL.RelaySupport.NewtonsoftJson\GraphQL.RelaySupport.NewtonsoftJson.csproj", "{F29B83AA-B20F-4358-B53B-7B7D7D8ACC79}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphQL.RelaySupport.FluentValidation", "GraphQL.RelaySupport.FluentValidation\GraphQL.RelaySupport.FluentValidation.csproj", "{3944BEE0-4E0A-477E-83A2-385D6303915C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphQL.RelaySupport.FluentValidation", "GraphQL.RelaySupport.FluentValidation\GraphQL.RelaySupport.FluentValidation.csproj", "{3944BEE0-4E0A-477E-83A2-385D6303915C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

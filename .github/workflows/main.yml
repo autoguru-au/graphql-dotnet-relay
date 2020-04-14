@@ -3,7 +3,6 @@ on:
   push:
     branches:
       - master
-      - release/v1.x
 env:
   VERSION_FILE_PATH: src/Directory.Build.props
   NUGET_KEY: ${{ secrets.NUGET_KEY }}

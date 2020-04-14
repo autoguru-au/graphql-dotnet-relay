@@ -4,7 +4,7 @@
     <Description>Types to add Relay support to graphql-dotnet</Description>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="GraphQL" Version="3.0.0-preview-1547" />
+    <PackageReference Include="GraphQL" Version="3.0.0-preview-1633" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="2.2.0" />
   </ItemGroup>
   <ItemGroup>

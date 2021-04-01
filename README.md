@@ -1,5 +1,9 @@
 # graphql-dotnet-relay
-> :warning: This documentation is a work in progress
+> :warning: **Disclaimer** 
+> 
+> AutoGuru no longer use graphql-dotnet in our GraphQL stack. 
+> 
+> As such we're no longer actively maintaining it ourselves.
 
 This library provides useful bits for graphql-dotnet based servers to add relay support. 
 
